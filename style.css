@@ -1,0 +1,44 @@
+#header{
+  margin:0;
+  padding:0;
+
+}
+.header_container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.title-sweetdessert{
+  size:4rem;
+}
+.header-img{
+  width:30px;
+  height:30px;
+  align-items: center;
+}
+.logo{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+
+}
+ul{
+  flex-direction: row;
+}
+.sns-logo{
+  width:30px;
+  height:30px;
+}
+#nav-bar{
+
+
+}
+li{
+  display:inline-block;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}

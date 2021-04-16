@@ -1,0 +1,262 @@
+header{
+  margin:50px;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding:0;
+}
+.nav-bar{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-Between;
+  width:auto;
+  height:100px;
+  border-bottom:double;
+  border-color:  #838383;
+}
+.navbar-img-logo{
+  width:30px;
+  height:30px;
+  margin-left: 20px;
+}
+.title-sweetdessert{
+  font-size: 2rem;
+  font-family: 'Fredoka One', cursive;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.navbar-menu{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Exo', sans-serif;
+  font-size:1rem;
+  padding-left: 0;
+  color: #838383;
+}
+a:hover{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+li {
+  list-style: none;
+
+  margin: auto;
+
+}
+
+.navbar-sns-img{
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.highlight-img{
+  display:flex;
+  padding-left: 0;
+
+
+}
+.highlight-food{
+  width:170.1111%;
+  overflow: hidden;
+  transition: all .2s;
+  display:flex;
+  justify-content: center;
+
+}
+.highlight-img:hover .highlight-food{
+  width:80%;
+  opacity: .02;
+
+}
+.highlight-img .highlight-food:hover{
+  width:210%;
+  opacity: 1;
+}
+
+
+h2{
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+p{
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.cookies{
+  display:grid;
+  grid-template-columns: 50% 50%;
+
+}
+.cookies1  {
+  width:400px;
+  height:300px;
+  grid-column: 2/3;
+  justify-self:start;
+  background-color: black;
+
+}
+.cookies2  {
+  width:400px;
+  height:300px;
+  background-color: black;
+  justify-self:end;
+}
+.cookies-list{
+  font-family: 'Exo', sans-serif;
+  line-height: 2;
+  align-self: center;
+}
+.cookies-list2{
+  grid-row: 2/3;
+  justify-self:end;
+  align-self: center;
+  font-size: 4rem;
+  font-family: 'Exo', sans-serif;
+  margin-right: 50px;
+
+
+
+
+}
+
+.cake{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+.cake1{
+  width: 400px;
+  height: 300px;
+  justify-self:end;
+  align-items: end;
+}
+
+.cake3{
+  width: 400px;
+  height: 500px;
+}
+.cake-text1{
+  font-size: 4rem;
+  font-family: 'Exo', sans-serif;
+  justify-self:start;
+  align-self: center;
+  margin-left: 100px;
+}
+.cake-text2{
+  font-size: 1rem;
+  font-family: 'Exo', sans-serif;
+  text-align: right;
+  margin-right:100px;
+  align-self: center;
+  line-height: 2;
+}
+
+.macarons{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+
+.macaron2{
+  width: 400px;
+  height: 500px;
+  justify-self:end;
+
+}
+
+
+.macaron1{
+  width: 500px;
+  height: 300px;
+  justify-self:start;
+  grid-column: 2/3;
+}
+.macaron-text1{
+  font-size: 1rem;
+  font-family: 'Exo', sans-serif;
+  text-align: left;
+  margin-left:100px;
+  align-self: center;
+  line-height: 2;
+}
+.macaron-text2{
+  font-size: 4rem;
+  font-family: 'Exo', sans-serif;
+  grid-row: 2/3;
+  justify-self:end;
+  align-self: center;
+  margin-right: 50px;
+}
+
+.order-form{
+  font-family: 'Exo', sans-serif;
+  color:;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.number{
+  width:30px;
+  height:30px;
+}
+.name-info{
+  text-align: left;
+}
+
+.order-form{
+  background-color: ;
+}
+input{
+  background-color: #ffefe0;
+  border-color: #fed9ca;
+
+}
+fieldset{
+  border-color: #fed9ca;
+
+}
+label{
+  font-weight: bold;
+}
+button{
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #ffefe0;
+  border-color: #fed9ca;
+}
+button:hover{
+  font-style: oblique;
+  font-weight: bolder;
+  background-color: white;
+}
+
+footer{
+  font-size: 0.4rem;
+  font-weight: 600;
+  margin-left: 300px;
+
+
+}
+
+.top{
+  position: absolute;
+  position: fixed;
+
+  margin:0;
+}
